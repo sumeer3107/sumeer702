@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 10;
+	background-image: image(—Pngtree—mesmerizing blue geometric pattern_17188748);
+  background-color: #ffffff;
+  color: #000000;
+  
+}
+
+header {
+  background-color: #000000d2;
+  background-image: url('pngtree-abstract-brick-wall-background-with-stone-tile-texture-png-image_12326919-2910156441.png') ;
+  size-adjust: 10;
+  padding: 25px;
+}
+
+
+nav ul {
+  list-style: list-type-list;
+  text-align: center;
+  
+}
+
+nav ul li {
+  display: inline;
+  padding-block: 50;
+  margin: 20px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration:underline;
+  font-size: 18px;
+}
+
+section {
+  padding: 40px 50px;
+  margin-inline: 25;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.cta-button {
+  padding: 20px 20px;
+  background-color: #ffffff;
+  color: rgb(75, 75, 75);
+  text-decoration: underline;
+  font-weight: bold;
+  border-radius: 15px;
+	border: medium
+		#149700
+}
+
+.cta-button:hover {
+  background-color: #5197ff;
+}
+
+.portfolio-category {
+  position: static;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.new logo {
+  width: 10;
+  height: 10;
+  opacity: 0.8;
+}
+
+.new logo h1 {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: rgb(34, 33, 33);
+  font-size: 3rem;
+}
+
+.portfolio-grid {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 35px;
+}
+
+.portfolio-category {
+  width: 50%;
+}
+
+.portfolio-item img {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
